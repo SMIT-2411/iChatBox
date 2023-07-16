@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ADD695A2A643BEC00527A5E /* iChatBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD69592A643BEC00527A5E /* iChatBoxApp.swift */; };
+		3ADD695C2A643BEC00527A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD695B2A643BEC00527A5E /* ContentView.swift */; };
+		3ADD695E2A643BEE00527A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD695D2A643BEE00527A5E /* Assets.xcassets */; };
+		3ADD69612A643BEE00527A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD69602A643BEE00527A5E /* Preview Assets.xcassets */; };
+		3ADD696B2A643BEE00527A5E /* iChatBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD696A2A643BEE00527A5E /* iChatBoxTests.swift */; };
+		3ADD69752A643BEE00527A5E /* iChatBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD69742A643BEE00527A5E /* iChatBoxUITests.swift */; };
+		3ADD69772A643BEE00527A5E /* iChatBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD69762A643BEE00527A5E /* iChatBoxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ADD69672A643BEE00527A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADD694E2A643BEC00527A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADD69552A643BEC00527A5E;
+			remoteInfo = iChatBox;
+		};
+		3ADD69712A643BEE00527A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADD694E2A643BEC00527A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADD69552A643BEC00527A5E;
+			remoteInfo = iChatBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ADD69562A643BEC00527A5E /* iChatBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChatBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADD69592A643BEC00527A5E /* iChatBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatBoxApp.swift; sourceTree = "<group>"; };
+		3ADD695B2A643BEC00527A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3ADD695D2A643BEE00527A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ADD69602A643BEE00527A5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ADD69662A643BEE00527A5E /* iChatBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADD696A2A643BEE00527A5E /* iChatBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatBoxTests.swift; sourceTree = "<group>"; };
+		3ADD69702A643BEE00527A5E /* iChatBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADD69742A643BEE00527A5E /* iChatBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatBoxUITests.swift; sourceTree = "<group>"; };
+		3ADD69762A643BEE00527A5E /* iChatBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADD69532A643BEC00527A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADD69632A643BEE00527A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADD696D2A643BEE00527A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADD694D2A643BEC00527A5E = {
+			isa = PBXGroup;
+			children = (
+				3ADD69582A643BEC00527A5E /* iChatBox */,
+				3ADD69692A643BEE00527A5E /* iChatBoxTests */,
+				3ADD69732A643BEE00527A5E /* iChatBoxUITests */,
+				3ADD69572A643BEC00527A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADD69572A643BEC00527A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADD69562A643BEC00527A5E /* iChatBox.app */,
+				3ADD69662A643BEE00527A5E /* iChatBoxTests.xctest */,
+				3ADD69702A643BEE00527A5E /* iChatBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADD69582A643BEC00527A5E /* iChatBox */ = {
+			isa = PBXGroup;
+			children = (
+				3ADD69592A643BEC00527A5E /* iChatBoxApp.swift */,
+				3ADD695B2A643BEC00527A5E /* ContentView.swift */,
+				3ADD695D2A643BEE00527A5E /* Assets.xcassets */,
+				3ADD695F2A643BEE00527A5E /* Preview Content */,
+			);
+			path = iChatBox;
+			sourceTree = "<group>";
+		};
+		3ADD695F2A643BEE00527A5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3ADD69602A643BEE00527A5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3ADD69692A643BEE00527A5E /* iChatBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADD696A2A643BEE00527A5E /* iChatBoxTests.swift */,
+			);
+			path = iChatBoxTests;
+			sourceTree = "<group>";
+		};
+		3ADD69732A643BEE00527A5E /* iChatBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADD69742A643BEE00527A5E /* iChatBoxUITests.swift */,
+				3ADD69762A643BEE00527A5E /* iChatBoxUITestsLaunchTests.swift */,
+			);
+			path = iChatBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADD69552A643BEC00527A5E /* iChatBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADD697A2A643BEE00527A5E /* Build configuration list for PBXNativeTarget "iChatBox" */;
+			buildPhases = (
+				3ADD69522A643BEC00527A5E /* Sources */,
+				3ADD69532A643BEC00527A5E /* Frameworks */,
+				3ADD69542A643BEC00527A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChatBox;
+			productName = iChatBox;
+			productReference = 3ADD69562A643BEC00527A5E /* iChatBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ADD69652A643BEE00527A5E /* iChatBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADD697D2A643BEE00527A5E /* Build configuration list for PBXNativeTarget "iChatBoxTests" */;
+			buildPhases = (
+				3ADD69622A643BEE00527A5E /* Sources */,
+				3ADD69632A643BEE00527A5E /* Frameworks */,
+				3ADD69642A643BEE00527A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADD69682A643BEE00527A5E /* PBXTargetDependency */,
+			);
+			name = iChatBoxTests;
+			productName = iChatBoxTests;
+			productReference = 3ADD69662A643BEE00527A5E /* iChatBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ADD696F2A643BEE00527A5E /* iChatBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADD69802A643BEE00527A5E /* Build configuration list for PBXNativeTarget "iChatBoxUITests" */;
+			buildPhases = (
+				3ADD696C2A643BEE00527A5E /* Sources */,
+				3ADD696D2A643BEE00527A5E /* Frameworks */,
+				3ADD696E2A643BEE00527A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADD69722A643BEE00527A5E /* PBXTargetDependency */,
+			);
+			name = iChatBoxUITests;
+			productName = iChatBoxUITests;
+			productReference = 3ADD69702A643BEE00527A5E /* iChatBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADD694E2A643BEC00527A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3ADD69552A643BEC00527A5E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3ADD69652A643BEE00527A5E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3ADD69552A643BEC00527A5E;
+					};
+					3ADD696F2A643BEE00527A5E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3ADD69552A643BEC00527A5E;
+					};
+				};
+			};
+			buildConfigurationList = 3ADD69512A643BEC00527A5E /* Build configuration list for PBXProject "iChatBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADD694D2A643BEC00527A5E;
+			productRefGroup = 3ADD69572A643BEC00527A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADD69552A643BEC00527A5E /* iChatBox */,
+				3ADD69652A643BEE00527A5E /* iChatBoxTests */,
+				3ADD696F2A643BEE00527A5E /* iChatBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADD69542A643BEC00527A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADD69612A643BEE00527A5E /* Preview Assets.xcassets in Resources */,
+				3ADD695E2A643BEE00527A5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADD69642A643BEE00527A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADD696E2A643BEE00527A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADD69522A643BEC00527A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADD695C2A643BEC00527A5E /* ContentView.swift in Sources */,
+				3ADD695A2A643BEC00527A5E /* iChatBoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADD69622A643BEE00527A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADD696B2A643BEE00527A5E /* iChatBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADD696C2A643BEE00527A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADD69772A643BEE00527A5E /* iChatBoxUITestsLaunchTests.swift in Sources */,
+				3ADD69752A643BEE00527A5E /* iChatBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ADD69682A643BEE00527A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADD69552A643BEC00527A5E /* iChatBox */;
+			targetProxy = 3ADD69672A643BEE00527A5E /* PBXContainerItemProxy */;
+		};
+		3ADD69722A643BEE00527A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADD69552A643BEC00527A5E /* iChatBox */;
+			targetProxy = 3ADD69712A643BEE00527A5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3ADD69782A643BEE00527A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ADD69792A643BEE00527A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADD697B2A643BEE00527A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iChatBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LRPRL7G34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OS.iChatBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADD697C2A643BEE00527A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iChatBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LRPRL7G34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OS.iChatBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ADD697E2A643BEE00527A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LRPRL7G34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OS.iChatBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChatBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iChatBox";
+			};
+			name = Debug;
+		};
+		3ADD697F2A643BEE00527A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LRPRL7G34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OS.iChatBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChatBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iChatBox";
+			};
+			name = Release;
+		};
+		3ADD69812A643BEE00527A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LRPRL7G34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OS.iChatBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iChatBox;
+			};
+			name = Debug;
+		};
+		3ADD69822A643BEE00527A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LRPRL7G34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OS.iChatBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iChatBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADD69512A643BEC00527A5E /* Build configuration list for PBXProject "iChatBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADD69782A643BEE00527A5E /* Debug */,
+				3ADD69792A643BEE00527A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADD697A2A643BEE00527A5E /* Build configuration list for PBXNativeTarget "iChatBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADD697B2A643BEE00527A5E /* Debug */,
+				3ADD697C2A643BEE00527A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADD697D2A643BEE00527A5E /* Build configuration list for PBXNativeTarget "iChatBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADD697E2A643BEE00527A5E /* Debug */,
+				3ADD697F2A643BEE00527A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADD69802A643BEE00527A5E /* Build configuration list for PBXNativeTarget "iChatBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADD69812A643BEE00527A5E /* Debug */,
+				3ADD69822A643BEE00527A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADD694E2A643BEC00527A5E /* Project object */;
+}
